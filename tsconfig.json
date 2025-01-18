@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "types": ["node"],
+  "include": [
+    "src/**/*",  // Include everything in the src folder
+    "src/controllers/CCustomer.controller.ts",
+    "src/datasource.ts"
+  ],
+  "exclude": []
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// {
+//   "compilerOptions": {
+//     "target": "ESNext",
+//     "module": "CommonJS",
+//     "outDir": "./dist",
+//     "emitDecoratorMetadata": true,
+//     "experimentalDecorators": true,
+//     "resolveJsonModule": true,
+//     "esModuleInterop": true
+//   },
+//   "types": ["node"],
+//   "include": [
+//     "src/**/*", "src/controllers/CCustomer.controller.ts",
+//   ],
+//   "exclude": []
+// }
